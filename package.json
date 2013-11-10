@@ -1,0 +1,22 @@
+{
+"name": "POI",
+"version": "0.0.1",
+"author": {
+"name": "Youhana Hana",
+"url": "http://github.com/Youhana-Hana"
+  },
+"private": false,
+"dependencies": {
+   "naught": "0.7.0",
+   "express": "3.1.0",
+   "ejs": "0.8.4"
+  },
+"devDependencies": {
+    "mocha": "1.10.0",
+    "sinon": "1.7.2"
+  },
+  "scripts": {
+  "start": "",
+  "test": ""
+ }
+}
