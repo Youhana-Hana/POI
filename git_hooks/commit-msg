@@ -1,0 +1,15 @@
+#!/bin/sh
+
+echo 'checking message for Pivotal Tracker id...'
+grep '^\[' "$1"
+
+if [ $? -eq 1 ]
+then
+  echo 'You did not link a Pivotal Tracker id!'
+  echo 'NOT COMMITTED'
+  exit 1
+fi
+
+echo 'Well done, commit successful'
+
+exit 0
