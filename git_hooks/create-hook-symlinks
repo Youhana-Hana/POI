@@ -1,2 +1,3 @@
 #!/bin/bash
-ln -s ~/src/elemez/git_hooks/pre-commit ../.git/hooks/pre-commit
+ln -s ~/src/POI/git_hooks/pre-commit ../.git/hooks/pre-commit
+ln -s ~/src/POI/git_hooks/commit-msg ../.git/hooks/commit-msg
