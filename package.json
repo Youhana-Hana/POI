@@ -19,7 +19,6 @@
   },
   "scripts": {
    "start": "",
-   "coverage": "test/coverage.sh",
    "quality": "quality/quality.sh"
  }
 }
