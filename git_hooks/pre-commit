@@ -4,4 +4,10 @@ echo "run pre commit hook"
 
 set -e
 
-npm run-script quality 
+echo "check code quality"
+npm run-script quality
+
+echo "check code test coverage"
+npm run-script coverage 
+
+echo "m3alam"

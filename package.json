@@ -19,6 +19,8 @@
   },
   "scripts": {
    "start": "",
-   "quality": "quality/quality.sh"
+   "quality": "quality/quality.sh",
+   "test": "test/test.sh",
+   "coverage": "test/coverage.sh"
  }
 }
