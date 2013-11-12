@@ -1,6 +1,7 @@
 #!/bin/bash
 
+echo "run pre commit hook"
+
 set -e
 
 npm run-script quality 
-npm run-script coverage
