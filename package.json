@@ -18,7 +18,7 @@
     "jshint" : "2.3.0"
   },
   "scripts": {
-   "start": "",
+   "start": "naught start --worker-count 1 server.js",
    "quality": "quality/quality.sh",
    "test": "test/test.sh",
    "coverage": "test/coverage.sh"
